@@ -142,9 +142,9 @@ footer{
     
     .contenedor-footer{
         z-index: 1;
-        height: 18rem;
+        height: 28rem;
         width: 95dvw;
-        background-image: linear-gradient(to top right, #1a1a1a,#555555);
+        background-image: linear-gradient(to top right, var(--bg-blue-low-opacity),#555555);
         border: 1px transparent;
         border-radius: 8px;
         opacity: 90%;
@@ -643,7 +643,7 @@ body{
             z-index: 1;
             height: 10rem;
             width: 95dvw;
-            background-image: linear-gradient(to top right, #1a1a1a,#555555);
+            background-image: linear-gradient(to top right, var(--bg-blue-low-opacity),#555555);
             border: 1px transparent;
             border-radius: 8px;
             opacity: 90%;
