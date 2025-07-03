@@ -4,6 +4,8 @@
     --bg:#080808;
     --text:#d9d9d9;
     --text-soft:#8f8f8f;
+    --text-pink-low-opacity: #e935bfae;
+    --bg-blue-low-opacity:rgba(27, 7, 245, 0.29);
     --contenedores:#0707076b;
 }
 *{
@@ -68,14 +70,14 @@
     z-index: 10;
     display: flex;
     justify-content: center;
-    z-index: 10;
-    justify-content: center;
-    background-color: var(--contenedores);
-    opacity: 90%;
-    backdrop-filter: blur(100px);
+    
+    /* background-color: var(--contenedores); */
+    background-color: var(--bg-blue-low-opacity);
+    opacity: 100%;
+    backdrop-filter: blur(150px);
     border-radius: 8px;
     margin-top: 10px;
-    height: 3rem;
+    height: 2.7rem;
     width: 80dvw;
     margin-inline: auto;
     padding: 5px;
@@ -288,7 +290,7 @@ body{
         gap: 1rem;
         padding-bottom: 1rem;
         article {
-            z-index: -1;
+            
             min-width: 250px;
             height: 300px;
             padding: 10px;
@@ -297,6 +299,10 @@ body{
             border-radius: 10px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
             position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
         }
         article h4 {
         color: var(--text);
@@ -311,11 +317,15 @@ body{
         text-align: center;
         }
         article a {
-            color: var(--text);
-            
-            opacity: 0.5;
+            color: var(--bg);
+            background-color: var(--text-pink-low-opacity);
+            margin-inline: 10px;
+            padding-block: 4px;
+            /* opacity: 0.5; */
             transition: all 0.5s;
             text-align: center;
+            border: 1px transparent;
+            border-radius: 8px;
         }
         article:hover p {
         opacity: 1;
