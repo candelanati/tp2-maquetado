@@ -132,6 +132,44 @@
     padding: 1rem 0;
 }
 
+
+/* ACCORDION */
+#FAQ{
+    margin-block: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.accordion{
+    width: 70%;
+    margin: auto;
+    
+    /* background-color: var(--contenedores) !important; */
+    /* border: 1px solid var(--text-soft); */
+    border-radius: 10px;
+    .accordion-item{
+        background-color: var(--contenedores) !important;
+        border-radius: 10px;
+        .accordion-button{
+            border-radius: 10px;
+            background-color: rgb(188, 79, 2);
+            color: var(--text);
+            margin-top: 10px;
+        }
+        /* .accordion-button :target{
+            border-color: orangered;
+            
+        } */
+        .accordion-body{
+            color: var(--text);
+            
+
+        }
+    }
+}
+
+
 /*FOOTER*/
 footer{
     margin-top: 50px;
