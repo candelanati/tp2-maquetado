@@ -8,6 +8,7 @@
     --text-light-pink: #80fc9fae;
     --bg-blue-low-opacity:rgba(27, 7, 245, 0.29);
     --contenedores:#0707076b;
+    --rojo:#660202;
 }
 *{
     /*fuente*/
@@ -168,6 +169,25 @@
         }
     }
 }
+
+
+/* CONTACTO */
+#contacto-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 1000px;
+        padding: 20px;
+        background-color: var(--bg-blue-low-opacity);
+        border-radius: 10px;
+    }
+}
+
 
 
 /*FOOTER*/
@@ -436,7 +456,7 @@ body{
     .resaltado-texto{
         display: inline;
         background-position: 0 4px;
-        background-image: linear-gradient(#660202 60%, transparent 60%);
+        background-image: linear-gradient(var(--rojo) 60%, transparent 60%);
         background-size: 100% 100%;
         background-repeat: no-repeat;
     }
