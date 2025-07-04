@@ -432,14 +432,7 @@ body{
             font-weight: 200;
         }
     }
-    .resaltado{
-        display: inline;
-        /* margin-top: 20px; */
-        background-position: 0 4px;
-        background-image: linear-gradient(#660202 60%, transparent 60%);
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-    }
+    
     .resaltado-texto{
         display: inline;
         background-position: 0 4px;
@@ -447,16 +440,7 @@ body{
         background-size: 100% 100%;
         background-repeat: no-repeat;
     }
-    /* .descripcion-identidad{
-        margin-top: 50px;
-        width: 1000px;
-        .izq{
-            text-align: start;
-        }
-        .der{
-            text-align: end;
-        }
-    } */
+    
      .descripcion-identidad{
         margin-top: 100px;
         display: flex;
