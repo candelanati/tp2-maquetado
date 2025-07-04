@@ -4,8 +4,8 @@
     --bg:#080808;
     --text:#d9d9d9;
     --text-soft:#8f8f8f;
-    --text-pink-low-opacity: #e935bfae;
-    --text-light-pink: #fc7ddeae;
+    --text-pink-low-opacity: rgb(2, 145, 24);
+    --text-light-pink: #80fc9fae;
     --bg-blue-low-opacity:rgba(27, 7, 245, 0.29);
     --contenedores:#0707076b;
 }
@@ -153,7 +153,7 @@
         border-radius: 10px;
         .accordion-button{
             border-radius: 10px;
-            background-color: rgb(188, 79, 2);
+            background-color: rgb(0, 109, 16);
             color: var(--text);
             margin-top: 10px;
         }
