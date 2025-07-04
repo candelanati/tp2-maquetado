@@ -181,7 +181,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 1000px;
+        width: 70%;
         padding: 20px;
         background-color: rgba(109, 129, 130, 0.215);
         border-radius: 10px;
@@ -444,6 +444,7 @@ body{
     justify-content: center;
     align-items: center;
     .titulos-identidad{
+        text-align: center;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -471,10 +472,23 @@ body{
         p{
             font-size: x-large;
         }
+        
+        .descripcion2-arriba{
+                display: block;
+            }
+            .descripcion2-abajo{
+                display: none;
+            }
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 20px;
+        width: 90dvw;
+        .iframe{
+            width:380px;
+            height:135px;
+        }
      }
 
 }
@@ -551,8 +565,34 @@ body{
       
 }
 
-/*tablets*/
-@media screen and (min-width:700px){
+
+/* BOOTSTRAP MD */
+/*tablets*/ 
+@media (min-width: 576px){
+    #contacto-form{
+        width: 100dvw;
+        .form{
+            width: 100dvw;
+        }
+
+    }
+    #identidad-visual{
+        .descripciones{
+            display: flex;
+            flex-direction: column;
+            .descripcion2-arriba{
+                display: block;
+            }
+            .descripcion2-abajo{
+                display: none;
+            }
+            width: 90dvw;
+            .iframe{
+                width:560px;
+                height:315px;
+            }
+        }
+    }
     #banner{
         h1{
             font-size: 4rem;
@@ -570,7 +610,7 @@ body{
     }
     nav{
         
-        #contenedor-nav{
+        .navbar{
             
             width: 80dvw;
             
@@ -777,8 +817,28 @@ body{
         }
     }
 }
+
+/* BOOTSTRAP XL */
 /*pc*/
 @media screen and (min-width:1200px){
+    #identidad-visual{
+        .descripciones{
+            display: flex;
+            flex-direction: row;
+            .descripcion2-arriba{
+                display: none;
+            }
+            .descripcion2-abajo{
+                display: block;
+            }
+            width: 90dvw;
+            .iframe{
+                width:560px;
+                height:315px;
+            }
+        }
+    }
+    
     #banner{
         background-image: linear-gradient(90deg, #000000,#08080800), url(./public/img/img-banner2.jpg) ;
         background-size: cover;
@@ -791,7 +851,7 @@ body{
         width: 99dvw;
     }
     nav{
-        #contenedor-nav{
+        .navbar{
             height: 2rem;
         }
         #logo-nav{
