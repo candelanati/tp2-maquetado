@@ -435,7 +435,7 @@ body{
     .resaltado{
         display: inline;
         /* margin-top: 20px; */
-        
+        background-position: 0 4px;
         background-image: linear-gradient(#660202 60%, transparent 60%);
         background-size: 100% 100%;
         background-repeat: no-repeat;
