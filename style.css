@@ -70,6 +70,10 @@
 
 } */
 
+main{
+    overflow: hidden;
+}
+
 /* NAV */
 .navbar {
     z-index: 10;
@@ -263,6 +267,7 @@ body {
 }
 
 #banner {
+    
     /* background-image: linear-gradient(90deg, #000000e5,#08080860), url(./public/img/img-banner1.jpg); 
     background-size:cover;
     background-position: center;*/
@@ -318,6 +323,7 @@ body {
         width: 100%;
         object-fit: cover;
         object-position: center;
+        
     }
 }
 
