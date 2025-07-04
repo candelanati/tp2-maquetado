@@ -577,6 +577,10 @@ body{
 
     }
     #identidad-visual{
+        .descripcion-identidad{
+
+            gap: 100px;
+        }
         .descripciones{
             display: flex;
             flex-direction: column;
