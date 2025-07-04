@@ -132,6 +132,7 @@ main{
     /* backdrop-filter: blur(150px) !important; */
     /* mismo fondo que la navbar */
     flex-wrap: wrap;
+    
     border-radius: 0 0 8px 8px;
     opacity: 0.95;
     transition: all 0.3s ease-in-out;
@@ -140,7 +141,7 @@ main{
 
 /* Asegurarte que el menú ocupe toda la anchura */
 .navbar-collapse ul {
-
+    gap: 12px;
     align-items: center;
     padding: 1rem 0;
 }
