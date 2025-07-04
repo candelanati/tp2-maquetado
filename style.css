@@ -126,9 +126,12 @@ main{
 
 .navbar-collapse.show {
     margin-top: 3px;
-    background-color: var(--contenedores);
+    background-color: rgba(7, 1, 71, 0.964);
+    opacity: 100% !important;
+    z-index: 0;
+    /* backdrop-filter: blur(150px) !important; */
     /* mismo fondo que la navbar */
-    backdrop-filter: blur(100px);
+    flex-wrap: wrap;
     border-radius: 0 0 8px 8px;
     opacity: 0.95;
     transition: all 0.3s ease-in-out;
